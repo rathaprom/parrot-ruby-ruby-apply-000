@@ -22,3 +22,6 @@ end
     expect(phrase).to eq("Pretty bird!")
   end
 end
+def greeting(name = "parrot")
+  puts "Squawk!, #{name}"
+end
