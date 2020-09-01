@@ -9,10 +9,9 @@ end
 def greeting(name = "parrot")
   puts "Squawk!, #{name}"
 end
-  it 'should output the given phrase when called with an argument' do
-    expect($stdout).to receive(:puts).with("Pretty bird!")
-    parrot("Pretty bird!")
-  end
+def greeting(name = "parrot")
+  puts "Pretty bird!, #{name}"
+end
 
   it 'should return the given phrase when called with an argument' do
     phrase = parrot("Pretty bird!")
